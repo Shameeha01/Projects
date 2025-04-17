@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: red;
+            margin-left: 50px;
+            font-family: sans-serif;
+            font-size: 40px;
+        }
+         .row .row1{
+            display: inline;
+        }
+        button{
+            background-color: red;
+            color: white;
+            font-size: 15px;
+            border: none;
+            border-radius: 4px;
+            padding: -10px;
+            height: 30px;
+            width: 70px;
+        }
+         select{
+            height: 30px;
+            width: 90px;
+            text-align: center;
+            border-radius: 4px;
+            padding-top: -1px;
+            font-size: 15px;
+        }
+        .row1{
+            margin-left: 800px;
+            margin-top: -70px;
+            margin-left: 1200px;
+        }
+        
+        .para1 {
+            font-size: 50px;
+            font-family: sans-serif;
+            margin-top: 100px;
+            margin-left: 90px;
+            text-align: center;
+        }
+        .para2{
+            font-size: large;
+        }
+        .para3{
+            margin-left: 90px;
+            text-align: center;
+            font-size: large;
+        }
+        .lastrow input{
+            margin-left: 300px;
+            border: 1px solid white;
+            border-radius: 3px;
+            height: 35px;
+            width: 300px;
+            text-align: left;
+            background-color: rgba(0, 0, 0, 0.61);
+            padding: 5px;
+        }
+        .b2 button{
+            height: 50px;
+            width: 200px;
+            margin-left: 615px;
+            margin-top: -250px;
+            font-size: 20px;
+        }
+        .homepage{
+            background-image: url(images/N1.jpg) ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .dropdowns{
+            margin-left: 50px;
+            background-color: black;
+            color: white;
+            border-radius: 4px;
+        }
+        .page2{
+            background-image: url(images/netpg2.jpg);
+        }
+        .parent{
+            display: grid;
+            grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+            overflow: auto;
+            }
+   
+        .one{
+           background-image: url(images/m1.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+           border-radius: 5px;
+           margin-top: 20px;
+           margin-left: 50px;
+           height: 200px;
+           width: 150px;
+        }
+        .two{
+            background-image: url(images/m2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 5px;
+           margin-top: 20px;
+           margin-left: 50px;
+           height: 200px;
+           width: 160px;
+        }
+        .three{
+            background-image: url(images/m3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 5px;
+           margin-top: 20px;
+           margin-left: 60px;
+           height: 200px;
+           width: 150px;
+        }
+        .four{
+            background-image: url(images/m4.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 5px;
+           margin-top: 20px;
+           margin-left: 50px;
+           height: 200px;
+           width: 140px;
+        }
+        .five{
+            background-image: url(images/m5.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 5px;
+           margin-top: 20px;
+           margin-left: 60px;
+           height: 200px;
+           width: 150px;
+        }
+        .six{
+            background-image: url(images/mv6.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 5px;
+           margin-top: 20px;
+           margin-left: 60px;
+           height: 200px;
+           width: 150px;
+        }
+        .seven{
+            background-image: url(images/m7.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 5px;
+           margin-top: 20px;
+           margin-left: 60px;
+           height: 200px;
+           width: 150px;
+        }
+        .eight{
+            background-image: url(images/mv8.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 5px;
+           margin-top: 20px;
+           margin-left: 60px;
+           height: 200px;
+           width: 150px;
+        }
+        .nine{
+            background-image: url(images/mv9.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 5px;
+           margin-top: 20px;
+           margin-left: 60px;
+           height: 200px;
+           width: 140px;
+        }
+        .ten{
+            background-image: url(images/m10.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 5px;
+           margin-top: 20px;
+           margin-left: 60px;
+           height: 200px;
+           width: 150px;
+        }
+        .box1{
+            color: white;
+            margin-left: 80px;
+            height: 150px;
+            width: 415px;
+            border: 1px solid white;
+            border-radius: 10px;
+            border: none;
+            background: linear-gradient(to top,rgba(41, 40, 40, 0.801),rgba(0, 89, 255, 0.329));
+            font-family: sans-serif;
+            padding: 20px;
+            /* background-image: url(images/tv.jpg);
+            background-repeat: no-repeat; */
+
+             }
+             .box1 h4{
+                color: rgba(255, 255, 255, 0.685);
+                font-weight: 100;
+             }
+             .box2{
+            color: white;
+            margin-left: 550px;
+            margin-top: -190px;
+            height: 150px;
+            width: 415px;
+            border: 1px solid white;
+            border-radius: 10px;
+            border: none;
+            background: linear-gradient(to top,rgba(41, 40, 40, 0.801),rgba(0, 89, 255, 0.329));
+            font-family: sans-serif;
+            padding: 20px;
+             }
+             .box2 h4{
+                color: rgba(255, 255, 255, 0.685);
+                font-weight: 100;
+             }
+             .box3{
+            color: white;
+            margin-left: 80px;
+            height: 150px;
+            width: 415px;
+            border: 1px solid white;
+            border-radius: 10px;
+            border: none;
+            background: linear-gradient(to top,rgba(41, 40, 40, 0.801),rgba(0, 89, 255, 0.329));
+            font-family: sans-serif;
+            padding: 20px;
+            margin-top: 15px;
+             }
+             .box3 h4{
+                color: rgba(255, 255, 255, 0.685);
+                font-weight: 100;
+             }
+             .box4{
+            color: white;
+            margin-left: 550px;
+            margin-top: -190px;
+            height: 150px;
+            width: 415px;
+            border: 1px solid white;
+            border-radius: 10px;
+            border: none;
+            background: linear-gradient(to top,rgba(41, 40, 40, 0.801),rgba(0, 89, 255, 0.329));
+            font-family: sans-serif;
+            padding: 20px;
+             }
+             .box4 h4{
+                color: rgba(255, 255, 255, 0.685);
+                font-weight: 100;
+             }
+    </style>
+</head>
+<body style="top: 0;background-color: rgba(0, 0, 0, 0.936);"><div class="homepage">
+    <div class="row">
+        <h1>NETFLIX</h1></div>
+        <div class="row1">
+    <select>
+        <option value="1">English</option>
+        <option value="2">hindi</option>
+    </select>
+    <button>Sing In</button></div>
+    <div class="para1">
+        <p style="color: white;">Unlimited movies, TV <br> shows and more</p><p class="para2" style="color: white;">Starts at ₹149. Cancel at any time. <br> </div>
+    <div class="para3"><p style="color: white;">Ready to watch? Enter your email to create or restart your membership.</p>
+    </div>
+    <div class="lastrow" style="margin-bottom: -30px;margin-left: 200px;">
+        
+        <input placeholder="Email address">
+    </div>
+    
+    <div class="b2">
+        <button style="margin-left: 830px;">Get Started > </button>
+    </div></div>
+
+
+    <div class="page2" >
+        <div style="margin-left: 50px; font-family: sans-serif; color: white;"><h2>Trending Now</h2></div>
+        <div class="dropdowns">
+            <select> <option value="1">India</option> <option value="2">Global</option></select>
+            <select> <option value="1">Movies</option> <option value="2">TV Shows</option></select>
+        </div>
+
+        <div class="parent">
+            <div class="child one"></div>
+            <div class="child two"></div>
+            <div class="child three"></div>
+            <div class="child four"></div>
+            <div class="child five"></div>
+            <div class="child six"></div>
+            <div class="child seven"></div>
+            <div class="child eight"></div>
+            <div class="child nine"></div>
+            <div class="child ten"></div>
+        </div>
+<div style="font-family: sans-serif; color: white; margin-left: 80px;"><h2>More reasons to join</h2></div>
+<div>
+    <div class="box1"><h3>Enjoy on your TV</h3><h4>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h4>
+    </div>
+    <div class="box2"><h3>Download your shows to watch offline</h3><h4>Save your favourites easily and always have something to watch.</h4></div>
+    <div class="box3"><h3>Watch everywhere</h3><h4>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</h4></div>
+    <div class="box4"><h3>Create profiles for kids</h3><h4>Send kids on adventures with their favourite characters in a space made just for them — free with your membership.</h4></div>
+
+
+
+
+
+
+</div>
+
+
+
+    </div>
+</body>
+</html>
